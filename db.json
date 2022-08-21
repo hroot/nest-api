@@ -1,0 +1,60 @@
+{
+    "devices": [
+        {
+            "id": 1,
+            "files": [
+                "notavirus.exe",
+                "deathstarblueprint.pdf"
+            ]
+        },
+        {
+            "id": 2,
+            "files": [
+                "deathstarblueprint.pdf",
+                "peterdinklagenudes.zip"
+            ]
+        },
+        {
+            "id": 3,
+            "files": [
+                "peterdinklagenudes.zip",
+                "keyboardcat.mp4"
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "devices": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "devices": [
+                {
+                    "id": 3
+                },
+                {
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "devices": [
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ]
+}
