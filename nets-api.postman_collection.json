@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "2e6860ac-6c38-4cdd-ba3e-f29be43f772e",
+		"name": "nets-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1305923"
+	},
+	"item": [
+		{
+			"name": "getGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/group/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"group",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addDevicesToGroup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"devices_id\": \"144\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/group/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"group",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteFromGroup",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"devices_id\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/group/4",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"group",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
